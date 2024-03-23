@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 async function getUser (id){
 const res = await fetch (`https://reqres.in/api/users/${id}`)
 const data = await res.json()
