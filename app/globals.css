@@ -8,8 +8,7 @@
 }
 
 .imagen-pequeña {
-    width: 64px;
-    height: 64px;
+
     border-radius: 50%;
     border: 2px solid #3498db;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);

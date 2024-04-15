@@ -21,7 +21,7 @@ const router = useRouter()
             <h5>{user.id} {user.first_name} {user.last_name}</h5>
             <p>{user.email}</p>
           </div>
-          <Image src={user.avatar} alt={user.email} style={{borderRadius: "50%"}}/>
+          <Image src={user.avatar} alt={user.email} width={60} height={60} style={{borderRadius: "50%"}}/>
         </li>
       ))}
    </ul>

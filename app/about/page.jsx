@@ -4,7 +4,7 @@ function AboutPage() {
   return (
     <div>
       <div className="encabezado">
-    <Image src="https://avatars.githubusercontent.com/u/118229728?v=4" alt="Tu imagen" className="imagen-pequeña"/>
+    <Image src="https://avatars.githubusercontent.com/u/118229728?v=4" alt="Tu imagen" width={70} height={70} className="imagen-pequeña" />
     <h1>Hello 👋, I'm Francisco Nicolás Passarelli</h1>
 </div>
 <h3>Frontend Developer React JS</h3>
@@ -29,12 +29,12 @@ I would like to collaborate with individuals, contributing my values to shared w
 <h3>Connect with me as well</h3>
 
 <p>
-    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf5GvxhVHYUqV9roWJ4I4xyszcLCUHxRpxXKfx6R-5gSQuxrApw2QADJwvxF6OLnM810&usqp=CAU" alt="franciscopassarelli.github.io/Myportfolio/" height="30" width="30"/>
+    <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf5GvxhVHYUqV9roWJ4I4xyszcLCUHxRpxXKfx6R-5gSQuxrApw2QADJwvxF6OLnM810&usqp=CAU" alt="franciscopassarelli.github.io/Myportfolio/" height={30} width={30} />
     <a href="https://github.com/franciscopassarelli" target="_blank">Visit my GitHub</a>
 </p>
 
 <p>
-    <Image src="https://w7.pngwing.com/pngs/555/1002/png-transparent-computer-icons-linkedin-resume-curriculum-vitae-social-media-social-media-template-text-rectangle.png" alt="https://www.linkedin.com/in/franciscopassarelli/" height="30" width="30"/>
+    <Image src="https://w7.pngwing.com/pngs/555/1002/png-transparent-computer-icons-linkedin-resume-curriculum-vitae-social-media-social-media-template-text-rectangle.png" alt="https://www.linkedin.com/in/franciscopassarelli/" height={30} width={30} />
     <a href="https://www.linkedin.com/in/franciscopassarelli/" target="_blank">Visit my Linkedin</a>
 </p>
 

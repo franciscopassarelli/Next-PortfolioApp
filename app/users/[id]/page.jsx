@@ -16,7 +16,7 @@ async function UsersPage ({params}) {
       <div className="col-md-6 offset-md-3">
         <div className="card">
           <div className="card-header text-center">
-          <Image src={user.avatar} alt={user.email} />
+          <Image src={user.avatar} alt={user.email} width={300} height={300}/>
           </div>
         <div className="card-body text-center">
       <h3>{user.id} {user.first_name} {user.last_name}</h3>
