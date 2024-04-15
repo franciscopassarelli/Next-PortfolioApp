@@ -5,18 +5,18 @@ function AboutPage() {
     <div>
       <div className="encabezado">
     <Image src="https://avatars.githubusercontent.com/u/118229728?v=4" alt="Tu imagen" width={70} height={70} className="imagen-pequeña" />
-    <h1>Hello 👋, I'm Francisco Nicolás Passarelli</h1>
+    <h1>Hello 👋, I m Francisco Nicolás Passarelli</h1>
 </div>
 <h3>Frontend Developer React JS</h3>
 <br/>
 
 <ul>
-    <li>🔭 I'm currently working as: <strong>Manager of the Mercado Libre Platform at Contactomaq, with some experience in</strong></li>
+    <li>🔭 I m currently working as: <strong>Manager of the Mercado Libre Platform at Contactomaq, with some experience in</strong></li>
     <li>🌱 coming soon: <strong>University Technical Degree in Web Technologies.</strong></li>
-    <li>🚀 I'm a student at <strong>Coderhouse. Front-End Development in React JS, Next JS, with some experience in Back-End / also leaning towards the area of Manual QA Testing.</strong></li>
-    <li>🤝 I'm available to <strong>accept job opportunities in the IT market, adapting and learning new technologies.</strong></li>
+    <li>🚀 I m a student at <strong>Coderhouse. Front-End Development in React JS, Next JS, with some experience in Back-End / also leaning towards the area of Manual QA Testing.</strong></li>
+    <li>🤝 I am available to <strong>accept job opportunities in the IT market, adapting and learning new technologies.</strong></li>
     <li>💬 Ask me about <strong>React JS and JavaScript.</strong></li>
-    <li>✔️I have the ability to adapt to different circumstances to ensure that the final product meets the client's expectations and is user-friendly.
+    <li>✔️I have the ability to adapt to different circumstances to ensure that the final product meets the clients expectations and is user-friendly.
 ✔️I also possess the skill to analyze and interpret requirements and implement them using best development practices.
 
 I am seeking roles that allow me to apply and expand my knowledge in popular frameworks and programming languages such as JavaScript, React, Node.js, databases, etc., facilitating my growth towards a comprehensive position in web development.
