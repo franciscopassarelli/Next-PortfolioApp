@@ -8,6 +8,8 @@ async function fetchUsers (){
 }
 async function IndexPage() {
 
+
+
   const users = await fetchUsers();
   return <Users users={users} />
   

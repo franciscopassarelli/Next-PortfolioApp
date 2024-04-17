@@ -16,15 +16,21 @@ export default function RootLayout({ children }) {
   <link rel='stylesheet' href='https://bootswatch.com/5/vapor/bootstrap.min.css'/>
 </head>
       <body>
+     <div>
+<h1>Bienvenidos a mi portfolio</h1>
      <Navigation/>
+    
+ 
      <div className='container p-4'>     
 
   {children}
   <hr />
   <p>Consumo de API con Next.js: He desarrollado esta Breve aplicacion web utilizando Next.js y he integrado exitosamente una API externa para obtener y mostrar datos en tiempo real. Esta habilidad me permitio crear una aplicacion dinámica y visible al usuario</p>
   <p>En este caso lo he compartido con un breve portafolio mio en las siguientes secciónes:</p></div>
-    
+  </div>
      </body>
+
+     
     </html>
   )
 }

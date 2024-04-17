@@ -20,3 +20,36 @@ h1 {
     font-size: 24px;
     color: #333;
 }
+
+
+
+/* Estilos personalizados */
+.custom-background {
+    background-color: #f8f9fa; /* Color de fondo claro */
+    border: 4px solid #041d3c; /* Borde */
+    border-radius: 0px; /* Borde redondeado */
+  }
+  
+  .experience {
+background-color: #1f002a;
+
+  }
+  .ExperienceOne {
+    background-color: #002e5f75;
+    border: 4px solid #f39c12; /* Cambia el color del borde a amarillo */
+    border-radius: 10px; /* Hace que el borde sea redondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hace que la sombra sea más pronunciada */
+    text-align: center;
+  }
+
+  .ExperienceTwo {
+    display: inline-block; /* Hace que el fondo se adapte al contenido */
+    background-color: #002e5f75;
+    color: #f39c12;
+    border-radius: 20px; /* Hace que el borde sea redondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hace que la sombra sea más pronunciada */
+    text-align: center;
+    padding: 6px; /* Agrega margen alrededor del contenido */
+  }
+  
+  
