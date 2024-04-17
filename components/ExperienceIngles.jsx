@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ExperienceInglés = () => {
+const ExperienceIngles = () => {
   return (
     <>
       <div className="container mt-4">
@@ -49,7 +49,7 @@ const ExperienceInglés = () => {
                 <br/>
                 <h5 className='ExperienceTwo'>La Cueva</h5>
                 <p>• Replenishment and salesperson for automotive spare parts.</p>
-                <p>• Telephone assistance and management of the company's email.</p>
+                <p>• Telephone assistance and management of the companys email.</p>
                 <p>• Counting and managing stock of products.</p>
                 <p>• Sales to customers offering quality service, adapting solutions to their needs.</p>
 
@@ -68,7 +68,7 @@ const ExperienceInglés = () => {
                 <div className="date">Jan. 2013 - Mar. 2015 · 2 years 3 months</div>
                 <br/>
                 <h5 className='ExperienceTwo'>Shell</h5>
-                <p>• Data and information registration in the company's system.</p>
+                <p>• Data and information registration in the companys system.</p>
                 <p>• Performance of specific tasks requested by the superior.</p>
                 <p>• Opening and closing of the premises, management, and cash counting.</p>
                 <p>• Posnet handling.</p>
@@ -86,4 +86,4 @@ const ExperienceInglés = () => {
   );
 };
 
-export default ExperienceInglés;
+export default ExperienceIngles;
