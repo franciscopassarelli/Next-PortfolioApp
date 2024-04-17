@@ -17,9 +17,9 @@ export default function RootLayout({ children }) {
 </head>
       <body>
      <div>
-<h1>Bienvenidos a mi portfolio</h1>
+
      <Navigation/>
-    
+     <h1 className='text-center'>Bienvenidos a mi portfolio</h1>
  
      <div className='container p-4'>     
 
