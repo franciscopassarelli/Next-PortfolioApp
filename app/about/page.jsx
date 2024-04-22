@@ -1,60 +1,86 @@
 import React from 'react';
-import ExperienceInglés from '@/components/ExperienceIngles';
+import ExperienceIngles from '@/components/ExperienceIngles';
 import Image from 'next/image';
+import FrontendHerramientas from '@/components/FrontendHerramientas';
+import BackendHerramientas from '@/components/BackendHerramientas';
+
 
 function AboutPage() {
   return (
-    <div className="container">
-      <div className="encabezado">
-        <Image src="https://avatars.githubusercontent.com/u/118229728?v=4" width={70} height={70} alt="Your image" className="imagen-pequeña"/>
-        <h1>Hello 👋, I&apos;m Francisco Nicolás Passarelli</h1>
-      </div>
-      <br/>
-      <h3>Frontend Developer React JS</h3>
-      <br/>
-
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <div className="p-3 custom-background"> {/* Apply background class here */}
-              <p className="text-dark">Hi! I&apos;m a JavaScript developer, specializing in Front-End development with React and Next JS, improving my Back-end skills like Node JS, Express at Coderhouse. Eager to continue expanding my skills in this exciting field.</p>
-              <p className="text-dark">I&apos;m looking for roles that allow me to employ and expand my knowledge in these frameworks and programming languages, accepting job opportunities in the IT market.</p>
-            </div>
+    <div class="container">
+    <div class="encabezado">
+      <Image src="https://avatars.githubusercontent.com/u/118229728?v=4" width={150} height={150} alt="Your image" className="imagen-pequeña"/>
+      <h1 class='text-center'>Hello 👋 I m Francisco Nicolás Passarelli</h1>
+    </div>
+    <br/>
+    <h2 class='text-center'>Software Developer</h2>
+    <br/>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="p-3 custom-background">
+            <p class="text-dark">JavaScript developer, especially in Front-End with React and Next JS, my Back-end skills include Node, Express JS, My SQL and now C# .Net core. Eager to continue expanding my skills in this exciting field.</p>
+            <p class="text-dark">I m looking for roles that allow me to employ and expand my knowledge in these frameworks and programming languages, accepting job opportunities in the IT market.</p>
+            <p class="text-dark">During this time, I have developed websites and systems for businesses, adapting their business logic and needs. Furthermore, I have improved my skills in API integration, which has enabled me to create applications in both visual and functional quality. This has facilitated my growth towards a comprehensive position in programming, both in frontend and backend.</p>
+            <p class='text-dark'>I am dedicating time to my English skills, recognizing its importance in the IT industry globally.</p>
           </div>
         </div>
       </div>
-
-      <div>
-        <ul>
-          <li>🔭 I&apos;m currently working as: <strong>Manager of the Mercado Libre Platform at Contactomaq. Also developing a system and an E-commerce for the same company.</strong></li>
-          <li>🌱 Soon <strong>University Degree in Web Technologies.</strong></li>
-          <li>🚀 Student at <strong>Coderhouse. Front-End Development React, NEXT JS / C# .NET.</strong></li>
-          <li>🤝 I&apos;m available for <strong></strong></li>
-          <li>✔️ I have the ability to adapt to different circumstances so that the final product is what the client really expects and user-friendly.
-          ✔️ I also have the ability to analyze and interpret requirements and translate them into good development practices. 
-
-          I&apos;m looking for roles that allow me to employ and expand my knowledge in popular frameworks and programming languages such as JavaScript, React, Node.js, databases, etc. Facilitating my growth towards a comprehensive position in web development.
-          I would like to share work areas with people contributing my values.</li>
-          <li>💬 Ask me about <strong>React JS and JavaScript.</strong></li>
-          <li>🎾 To cut a bit <strong>I train tennis, play, and give tennis classes.</strong></li>
-        </ul>
-      </div>
-      <div>
-        <ExperienceInglés/>
-      </div>
-      <div>
-        <p>My Email: franciscopassarelli7@gmail.com</p>
-        <h3>Connect with me also</h3>
-        <p>
-          <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf5GvxhVHYUqV9roWJ4I4xyszcLCUHxRpxXKfx6R-5gSQuxrApw2QADJwvxF6OLnM810&usqp=CAU" alt="franciscopassarelli.github.io/Miportafolio/" height={30} width={30} />
-          <a href="https://github.com/franciscopassarelli" target="_blank">Visit my Github</a>
-        </p>
-        <p>
-          <Image src="https://w7.pngwing.com/pngs/555/1002/png-transparent-computer-icons-linkedin-resume-curriculum-vitae-social-media-social-media-template-text-rectangle.png" alt="https://www.linkedin.com/in/franciscopassarelli/" height={30} width={30} />
-          <a href="https://www.linkedin.com/in/franciscopassarelli/" target="_blank">Visit my Linkedin</a>
-        </p>
-      </div>
     </div>
+    <br/>
+    <hr/>
+    <br/>
+  
+    <h3 class='text-center bg-dark'>About Me</h3>
+    <div>
+      <ul>
+        <li><strong>I m 29 years old and currently working as:</strong> Platform Manager at a company called Contactomaq. I developed a system to manage my business stock, then I finished an E-commerce for the same company using React JS and Node JS.</li>
+        <li>📖 Studying a <strong>University Technical Degree in Web Technologies.</strong></li>
+        <li><strong>🚀 At Coderhouse I finished:</strong> React JS Frontend Development Career. And C#</li>
+        <li>✔️ Ability to adapt to different circumstances to ensure that the final product meets the clients expectations and is user-friendly.</li>
+        <li>✔️ Ability to analyze and interpret requirements and translate them into good development practices.</li>
+        <li> <strong> 💬 Ask me and learn more about my tools </strong> both frontend, backend as well as my interpersonal skills.</li>
+        <li>🎾 To relax a bit, my passion is: <strong>Training tennis, playing and giving tennis lessons.</strong></li>
+      </ul>
+    </div>
+    <div>
+      <br/>
+      <hr/>
+      <br/>
+  
+      <h3 class='text-center bg-dark'>Tools</h3>
+      <div class='container text-center'>
+        <FrontendHerramientas/>
+        <br/>
+        <BackendHerramientas/>
+      </div>
+      <br/>
+      <hr/>
+      <br/>
+  
+      <h3 class='text-center bg-dark'>Work Experience</h3>
+      <ExperienceIngles/>
+    </div>
+    <br/>
+    <hr/>
+    <br/>
+  
+    <div>
+      
+      <h3>Connect with me also</h3>
+      <p>My Email: franciscopassarelli7@gmail.com</p>
+      <p>
+        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf5GvxhVHYUqV9roWJ4I4xyszcLCUHxRpxXKfx6R-5gSQuxrApw2QADJwvxF6OLnM810&usqp=CAU" alt="franciscopassarelli.github.io/Myportfolio/" height={30} width={30} />
+        <a href="https://github.com/franciscopassarelli" target="_blank">Visit my Github</a>
+      </p>
+      <p>
+        <Image src="https://w7.pngwing.com/pngs/555/1002/png-transparent-computer-icons-linkedin-resume-curriculum-vitae-social-media-social-media-template-text-rectangle.png" alt="https://www.linkedin.com/in/franciscopassarelli/" height={30} width={30} />
+        <a href="https://www.linkedin.com/in/franciscopassarelli/" target="_blank">Visit my Linkedin</a>
+      </p>
+    </div>
+  </div>
+  
   )
 }
 

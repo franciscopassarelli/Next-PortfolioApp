@@ -1,8 +1,9 @@
 .encabezado {
+  text-align: center;
     display: flex;
     align-items: center; /* Alinea verticalmente al centro */
     background-color: #002e5f75;
-    padding: 10px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -26,7 +27,7 @@ h1 {
 /* Estilos personalizados */
 .custom-background {
     background-color: #f8f9fa; /* Color de fondo claro */
-    border: 4px solid #041d3c; /* Borde */
+    border: 4px solid #088c8e; /* Borde */
     border-radius: 0px; /* Borde redondeado */
   }
   
@@ -52,4 +53,17 @@ background-color: #1f002a;
     padding: 6px; /* Agrega margen alrededor del contenido */
   }
   
+  .TitleBienvenido{
+    display: block;
+    background-color: #002e5f75;
+    border: 4px solid #f39c12; /* Cambia el color del borde a amarillo */
+    border-radius: 10px; /* Hace que el borde sea redondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hace que la sombra sea más pronunciada */
+    text-align: center;
+  }
+  
+  .square-container {
+    width: 300px; /* Cambia este valor según el tamaño deseado del contenedor */
+    height: 300px; /* Igual que el ancho, para hacer un contenedor cuadrado */
+  }
   

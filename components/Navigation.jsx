@@ -12,7 +12,7 @@ function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container">
-        <Link href="/" className="navbar-brand">Next API and Portfolio</Link>
+        <Link href="/services" className="navbar-brand" style={{ color: 'dark', fontSize: '25px' }}>Francisco Passarelli</Link>
         <button className="navbar-toggler" type="button" onClick={toggleNav}>
           <span className="navbar-toggler-icon"></span>
         </button>

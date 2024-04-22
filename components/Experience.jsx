@@ -10,6 +10,7 @@ const Experience = () => {
           <div className="row">
             <div className="col-md-4">
               <div id="simple-list-example" className="d-flex flex-column gap-2 simple-list-example-scrollspy text-center border rounded p-3">
+                <h3 className='text-white'>Trabajos</h3>
                 <a className="p-1 rounded bg-light text-dark" href="#simple-list-item-1">CONTACTOMAQ gestion ML, Web Developer</a>
                 <a className="p-1 rounded bg-light text-dark" href="#simple-list-item-2">Entrenador de tenis</a>
                 <a className="p-1 rounded bg-light text-dark" href="#simple-list-item-3">La Cueva /Comercio</a>
@@ -32,7 +33,7 @@ const Experience = () => {
                 <p>• Cargué y actualicé regularmente la información de productos, asegurando la precisión de los detalles y la coherencia con la estrategia de la marca.</p>
                 <p>• Supervisé el inventario, gestionando eficientemente el stock para evitar agotamientos y excedentes.</p>
       
-                <h4 id="simple-list-item-2" className='ExperienceOne'>Profesor Nacional de Tenis</h4>
+                <h4 id="simple-list-item-2" className='ExperienceOne' >Profesor Nacional de Tenis</h4>
                 <br/>
                 <div className="date">feb. 2020 - actualidad · 4 años 2 meses</div>
                 <br/>

@@ -8,6 +8,7 @@ const ExperienceIngles = () => {
           <div className="row">
             <div className="col-md-4">
               <div id="simple-list-example" className="d-flex flex-column gap-2 simple-list-example-scrollspy text-center border rounded p-3">
+              <h3 className='text-white'>Works</h3>
                 <a className="p-1 rounded bg-light text-dark" href="#simple-list-item-1">CONTACTOMAQ ML Management, Web Developer</a>
                 <a className="p-1 rounded bg-light text-dark" href="#simple-list-item-2">Tennis Coach</a>
                 <a className="p-1 rounded bg-light text-dark" href="#simple-list-item-3">La Cueva /Commerce</a>
