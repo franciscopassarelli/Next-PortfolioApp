@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const FrontendHerramientas = () => {
   const herramientas = [
     { nombre: 'Herramienta 1', logoUrl: 'https://cdn.worldvectorlogo.com/logos/react-1.svg' },
-    { nombre: 'Herramienta 2', logoUrl: 'https://quizizz.com/media/resource/gs/quizizz-media/quizzes/dad8246a-0942-4d8a-8bdf-a20c9369e3a2' },
+    { nombre: 'Herramienta 2', logoUrl: 'https://logodix.com/logo/374704.png' },
     { nombre: 'Herramienta 3', logoUrl: 'https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg' },
     { nombre: 'Herramienta 4', logoUrl: 'https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg' },
     { nombre: 'Herramienta 5', logoUrl: 'https://assets.codepen.io/t-954/internal/avatars/teams/default.png?fit=crop&format=auto&height=512&version=1653252283&width=512' },
