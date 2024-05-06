@@ -98,13 +98,16 @@ function ServicesPage() {
 <hr />
 
 <div className="container">
-      <div className="row">
-        <div className="col">
-        <h3 className='text-center bg-dark'>Certificados</h3>
-          <SmallCarousel images={images} />
-        </div>
+  <div className="row">
+    <div className="col">
+      <h3 className='text-center bg-dark'>Certificados</h3>
+      <div className="carousel-container">
+        <SmallCarousel images={images} className="carousel" />
       </div>
     </div>
+  </div>
+</div>
+
 <br/>
 <hr/>
 <br/>
