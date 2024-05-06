@@ -3,9 +3,25 @@ import ExperienceIngles from '@/components/ExperienceIngles';
 import Image from 'next/image';
 import FrontendHerramientas from '@/components/FrontendHerramientas';
 import BackendHerramientas from '@/components/BackendHerramientas';
+import SmallCarousel from '@/components/Carrousel';
+import Proyects from '@/components/Proyects';
+import Link from 'next/link';
 
 
 function AboutPage() {
+
+
+  const images = [
+    { src: '/Certificado1.png', alt: 'Descripción de la imagen 1', caption: 'Título de la imagen 1', description: 'Descripción detallada de la imagen 1' },
+    { src: '/Certificado2.png', alt: 'Descripción de la imagen 2', caption: 'Título de la imagen 2', description: 'Descripción detallada de la imagen 2' },
+    { src: '/Certificado3.png', alt: 'Descripción de la imagen 3', caption: 'Título de la imagen 3', description: 'Descripción detallada de la imagen 3' },
+    { src: '/Certificado4.png', alt: 'Descripción de la imagen 4', caption: 'Título de la imagen 4', description: 'Descripción detallada de la imagen 4' },
+    { src: '/Certificado5.png', alt: 'Descripción de la imagen 5', caption: 'Título de la imagen 5', description: 'Descripción detallada de la imagen 5' },
+    { src: '/Certificado6.png', alt: 'Descripción de la imagen 6', caption: 'Título de la imagen 6', description: 'Descripción detallada de la imagen 6' }
+  ];
+
+
+
   return (
     <div class="container">
     <div class="encabezado">
@@ -65,19 +81,44 @@ function AboutPage() {
     <br/>
     <hr/>
     <br/>
+
+    <div className="container">
+      <div className="row">
+        <div className="col">
+        <h3 className='text-center bg-dark'>Certificados</h3>
+          <SmallCarousel images={images} />
+        </div>
+      </div>
+    </div>
+<br/>
+<hr/>
+<br/>
+<div className='container'>
+
+  <h3 className='text-center bg-dark'>Proyectos</h3>
+  <br/>
+  <Proyects/>
+</div>
+<hr/>
+<br/>
   
     <div>
       
       <h3>Connect with me also</h3>
       <p>My Email: franciscopassarelli7@gmail.com</p>
       <p>
-        <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf5GvxhVHYUqV9roWJ4I4xyszcLCUHxRpxXKfx6R-5gSQuxrApw2QADJwvxF6OLnM810&usqp=CAU" alt="franciscopassarelli.github.io/Myportfolio/" height={30} width={30} />
-        <a href="https://github.com/franciscopassarelli" target="_blank">Visit my Github</a>
-      </p>
-      <p>
-        <Image src="https://w7.pngwing.com/pngs/555/1002/png-transparent-computer-icons-linkedin-resume-curriculum-vitae-social-media-social-media-template-text-rectangle.png" alt="https://www.linkedin.com/in/franciscopassarelli/" height={30} width={30} />
-        <a href="https://www.linkedin.com/in/franciscopassarelli/" target="_blank">Visit my Linkedin</a>
-      </p>
+          <Link className='btn btn-info' href="https://drive.google.com/file/d/1LKlVsBWm5zRI3rjRhNcVc3DwiVJ8ZeR4/view?usp=sharing" target="_blank"><Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf5GvxhVHYUqV9roWJ4I4xyszcLCUHxRpxXKfx6R-5gSQuxrApw2QADJwvxF6OLnM810&usqp=CAU" alt="franciscopassarelli.github.io/Miportafolio/" height={30} width={30} /> Curriculum Vitae</Link>
+          </p>
+        
+        <p>
+          
+          <Link className='btn btn-warning' href="https://github.com/franciscopassarelli" target="_blank"><Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgf5GvxhVHYUqV9roWJ4I4xyszcLCUHxRpxXKfx6R-5gSQuxrApw2QADJwvxF6OLnM810&usqp=CAU" alt="franciscopassarelli.github.io/Miportafolio/" height={30} width={30} /> Visit my Github</Link>
+        </p>
+        <p>
+          
+          <Link className='btn btn-success' href="https://www.linkedin.com/in/franciscopassarelli/" target="_blank"><Image src="https://w7.pngwing.com/pngs/555/1002/png-transparent-computer-icons-linkedin-resume-curriculum-vitae-social-media-social-media-template-text-rectangle.png" alt="https://www.linkedin.com/in/franciscopassarelli/" height={30} width={30} /> Visit my Linkedin</Link>
+        </p>
+    
     </div>
   </div>
   

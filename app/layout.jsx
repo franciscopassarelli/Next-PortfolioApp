@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
 
      <Navigation/>
      <br/>
-     <h1 className='text-center TitleBienvenido'>Bienvenidos a mi portfolio</h1>
+   
  
      <div className='container p-4'>     
 
