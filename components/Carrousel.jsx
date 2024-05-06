@@ -1,5 +1,6 @@
 "use client"
 import { useState } from 'react';
+import Image from 'next/image';
 
 const SmallCarousel = ({ images }) => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -24,7 +25,7 @@ const SmallCarousel = ({ images }) => {
             <div className="carousel-inner">
               {images.map((image, index) => (
                 <div key={index} className={`carousel-item ${index === activeIndex ? 'active' : ''}`}>
-                  <img src={image.src} className="d-block mx-auto" style={{ maxWidth: '400px', maxHeight: '400px' }} alt={image.alt} />
+                  <Image src={image.src} className="d-block mx-auto" width={600} height={500} alt={image.alt} />
                 </div>
               ))}
             </div>

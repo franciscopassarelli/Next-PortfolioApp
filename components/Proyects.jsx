@@ -21,26 +21,26 @@ const Proyects = () => {
   // Array con los contenidos de los slides
   const slides = [
     {
-      image: "/NextApp.png",
+    
       text: (
         <div className="clearfix rounded-lg text-dark bg-white custom-background p-4">
         <Image src="/NextApp.png" width={500} height={500} className="img-fluid float-md-end mb-3 ms-md-3 col-md-6" alt="..."/>
         <h4>FrannTenis</h4>
         <p className="col-md-6">
-        Te presentamos un E-commerce autoadministrable desarrollado con Next JS, enfocado en mi tienda de tenis. Ofrece un formulario de inscripción y compra para los usuarios, una sección de administración para gestionar datos de compra, inventario para crear, modificar y borrar productos. También podes leer mensajes y comentarios de los usuarios. Simplifica tu experiencia de comercio electrónico con nuestra plataforma eficiente y fácil de usar."
+        Te presentamos un E-commerce autoadministrable desarrollado con Next JS, enfocado en mi tienda de tenis. Ofrece un formulario de inscripción y compra para los usuarios, una sección de administración para gestionar datos de compra, inventario para crear, modificar y borrar productos. Tambien podes leer mensajes y comentarios de los usuarios. Simplifica tu experiencia de comercio electrónico con nuestra plataforma eficiente y fácil de usar.
         </p>
         <p className="col-md-6">
           Para este proyecto se usó, Next JS, Tailwind CSS y Firebase.
         </p>
       
         
-          <Link className='btn btn-primary' href={"https://next-aplication-henna.vercel.app/"}>Mostrar proyecto</Link>
+          <Link className='btn btn-primary' href={'https://next-aplication-henna.vercel.app/'}>Mostrar proyecto</Link>
     
       </div>
       ),
     },
     {
-      image: "/Sofi.png",
+    
       text: (
         <div className="clearfix rounded-lg text-dark bg-white custom-background p-4">
         <Image src="/Sofi.png" width={500} height={500} className="img-fluid float-md-end mb-3 ms-md-3 col-md-6" alt="..."/>
@@ -53,7 +53,7 @@ const Proyects = () => {
         </p>
       
         
-          <Link className='btn btn-primary' href={"https://franciscopassarelli.github.io/Sofi-Shop/"}>Mostrar proyecto</Link>
+          <Link className='btn btn-primary' href={'https://franciscopassarelli.github.io/Sofi-Shop/'}>Mostrar proyecto</Link>
     
       </div>
       
@@ -63,7 +63,7 @@ const Proyects = () => {
 
 
     {
-      image: "/contacto.png",
+      
       text: (
         <div className="clearfix rounded-lg text-dark bg-white custom-background p-4">
         <Image src="/contacto.png" width={500} height={500} className="img-fluid float-md-end mb-3 ms-md-3 col-md-6" alt="..."/>
@@ -77,7 +77,7 @@ const Proyects = () => {
         </p>
       
         
-          <Link className='btn btn-primary' href={"https://contactomaq.vercel.app/"}>Mostrar proyecto</Link>
+          <Link className='btn btn-primary' href={'https://contactomaq.vercel.app/'}>Mostrar proyecto</Link>
     
       </div>
       
@@ -86,7 +86,7 @@ const Proyects = () => {
     },
 
     {
-      image: "/Burger.png",
+    
       text: (
         <div className="clearfix rounded-lg text-dark bg-white custom-background p-4">
     
@@ -102,7 +102,7 @@ const Proyects = () => {
         </p>
       
         
-          <Link className='btn btn-primary' href={"tu_link_aquí"}>Mostrar proyecto</Link>
+          <Link className='btn btn-primary' href={'https://franciscopassarelli.github.io/Burguer-B/'}>Mostrar proyecto</Link>
     
       </div>
       
@@ -111,7 +111,7 @@ const Proyects = () => {
     },
 
     {
-      image: "/Crud.png",
+      
       text: (
         <div className="clearfix rounded-lg text-dark bg-white custom-background p-4">
     
@@ -127,7 +127,7 @@ const Proyects = () => {
         </p>
       
         
-          <Link className='btn btn-primary' href={"https://github.com/franciscopassarelli/FrannApp-CRUD"}>Mostrar proyecto</Link>
+          <Link className='btn btn-primary' href={'https://github.com/franciscopassarelli/FrannApp-CRUD'}>Mostrar proyecto</Link>
     
       </div>
       
